@@ -1,9 +1,8 @@
 # length between chain ends
-# (Removed the below line so L is set only by -var)
-# variable        L equal ${L}
+variable      L equal 100
 
-# temperature in K (set dynamically by the shell script)
-variable        temp equal ${temp}
+# temperature in K
+variable        temp equal 300
 
 # number of steps over which to stretch polymer from the initial state to length L
 variable        Nstretch equal 1e5
